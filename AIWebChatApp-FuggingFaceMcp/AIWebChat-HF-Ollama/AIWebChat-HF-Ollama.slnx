@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="AIWebChat-HF-Ollama.AppHost/AIWebChat-HF-Ollama.AppHost.csproj" />
+  <Project Path="AIWebChat-HF-Ollama.ServiceDefaults/AIWebChat-HF-Ollama.ServiceDefaults.csproj" />
+  <Project Path="AIWebChat-HF-Ollama.Web/AIWebChat-HF-Ollama.Web.csproj" />
+</Solution>

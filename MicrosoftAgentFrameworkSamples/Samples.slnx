@@ -1,0 +1,91 @@
+<Solution>
+  <Folder Name="/- Special AI Features not using Agent Framework -/" />
+  <Folder Name="/- Special AI Features not using Agent Framework -/ImageGeneration/">
+    <File Path="Anthropic-Claude.txt" />
+    <Project Path="src/ImageGeneration.GoogleGemini/ImageGeneration.GoogleGemini.csproj" Id="f83c1270-a47d-462b-92c2-af748589af38" />
+    <Project Path="src/ImageGeneration.XAiGrok/ImageGeneration.XAiGrok.csproj" Id="c03ed37b-f16b-450f-a0cf-bdc4ebfb77f0" />
+    <Project Path="src/ImageGeneration/ImageGeneration.OpenAi.csproj" Id="89214eeb-354b-4726-a3c1-39766ef219e7" />
+  </Folder>
+  <Folder Name="/Aspire/">
+    <Project Path="Samples.AppHost/Samples.AppHost.csproj" Id="42cace91-95d9-45d2-ba66-5e73a5ab6771" />
+    <Project Path="Samples.ServiceDefaults/Samples.ServiceDefaults.csproj" />
+    <Project Path="src/AspireBlazorDemo/AspireBlazorDemo.csproj" />
+  </Folder>
+  <Folder Name="/AzureAiFoundry/">
+    <Project Path="src/AzureAiFoundry.Administration/AzureAiFoundry.Administration.csproj" Id="968b00b8-e6a9-4891-95d9-adc89a34ae2a" />
+    <Project Path="src/AzureAiFoundry.CodeInterpreter/AzureAiFoundry.CodeInterpreter.csproj" Id="4b99038e-d260-4ddf-b411-8f5564a399f1" />
+    <Project Path="src/AzureAiFoundry.FileSearchTool/AzureAiFoundry.FileSearchTool.csproj" Id="c78815a1-4fe2-44d1-8de5-25cd4af2d56d" />
+    <Project Path="src/AzureAiFoundry.Models/AzureAiFoundry.Models.csproj" Id="e3e015ec-1504-4b3c-9af8-c3a7028d3931" />
+    <Project Path="src/AzureAiFoundry.WebSearch/AzureAiFoundry.WebSearch.csproj" Id="70bb89f4-0795-4b8e-ad3f-858f035901b3" />
+  </Folder>
+  <Folder Name="/Features/">
+    <Project Path="src/AgentInputData/AgentInputData.csproj" Id="56751bff-8f82-4754-9d16-6f46b0b82fe1" />
+    <Project Path="src/ConversationThreads/ConversationThreads.csproj" Id="0cd8ac44-46cf-4a41-946e-736764a73a06" />
+    <Project Path="src/ReasoningEffort/ReasoningEffort.csproj" Id="caba07b0-4551-4b07-b2b6-d895836bda18" />
+    <Project Path="src/StructuredOutput/StructuredOutput.csproj" Id="3f844d4f-0435-468f-a6ef-ff35ac8f7983" />
+    <Project Path="src/TokenUsage/TokenUsage.csproj" Id="e3accc36-005a-4900-be4e-0d1d35142a2a" />
+  </Folder>
+  <Folder Name="/Features/ToolCalling/">
+    <Project Path="src/ToolCalling.Advanced/ToolCalling.Advanced.csproj" Id="c8428d24-c838-4a61-ab71-ecffcde4b8d9" />
+    <Project Path="src/ToolCalling.Basics/ToolCalling.Basics.csproj" Id="0157ef69-5a6c-4470-9a9d-43bca4ea9649" />
+    <Project Path="src/Toolcalling.FromAnMcpServer/Toolcalling.FromAnMcpServer.csproj" Id="427477f9-a17e-4284-a66f-fea0f9411701" />
+  </Folder>
+  <Folder Name="/MultiAgents &amp; Workflows/">
+    <Project Path="src/MultiAgent.AgentAsTool/MultiAgent.AgentAsTool.csproj" Id="41434d93-72ba-43d0-b7b0-117e3c6eb7bb" />
+    <Project Path="src/MultiAgent.ManualViaStructuredOutput/MultiAgent.ManualViaStructuredOutput.csproj" Id="84bbb296-1bd5-4e35-86dd-bf12dce7b418" />
+  </Folder>
+  <Folder Name="/MultiAgents &amp; Workflows/Agentic Workflows/">
+    <Project Path="src/Workflow.Concurrent/Workflow.Concurrent.csproj" Id="b22a0c06-ddd2-4615-9335-84dfbecfd961" />
+    <Project Path="src/Workflow.Handoff/Workflow.Handoff.csproj" Id="b19de8e1-2119-403c-8f12-8a61c5b77e33" />
+    <Project Path="src/Workflow.Sequential/Workflow.Sequential.csproj" Id="1bcdb486-2870-4739-8a35-d01c80b167e9" />
+  </Folder>
+  <Folder Name="/MultiAgents &amp; Workflows/Workflows/">
+    <Project Path="src/Workflow.AiAssisted.PizzaSample/Workflow.AiAssisted.PizzaSample.csproj" Id="ebb01b83-7e68-44be-a89a-4574848c00fa" />
+  </Folder>
+  <Folder Name="/OpenAiResponesApi/">
+    <File Path="C:/Users/rasmu/Desktop/ResponsesAPIFeatureMatrixSupport.png" />
+    <Project Path="src/OpenAIResponsesApi.CodeInterpreter/OpenAIResponsesApi.CodeInterpreter.csproj" Id="1d0ae3d5-3cb0-439c-acf2-311d15621421" />
+    <Project Path="src/OpenAIResponsesApi.FileSearchTool/OpenAIResponsesApi.FileSearchTool.csproj" Id="959e5bb4-a8d6-4530-a893-b2430c51b921" />
+    <Project Path="src/OpenAIResponsesApi.ReasoningSummary/OpenAIResponsesApi.ReasoningSummary.csproj" Id="aa7c1934-b057-43d6-ba0a-92375c4e47f4" />
+    <Project Path="src/OpenAIResponsesApi.ResumeConversation/OpenAIResponsesApi.ResumeConversation.csproj" Id="109fe4ed-2aaf-4373-b93b-b5a72fedc742" />
+    <Project Path="src/OpenAIResponsesApi.SpecialModels/OpenAIResponsesApi.SpecialModels.csproj" Id="34ae1899-0fb6-41ca-85e4-e13d85196263" />
+    <Project Path="src/OpenAIResponsesApi.WebSearch/OpenAIResponsesApi.WebSearch.csproj" Id="9dc49e05-421b-4e1d-9384-579ddefd2763" />
+  </Folder>
+  <Folder Name="/RAG/">
+    <Project Path="src/AdvancedRAGTechniques/AdvancedRAGTechniques.csproj" Id="222d4527-f7ca-4e02-a3ef-2f65d7f5014a" />
+    <Project Path="src/UsingRAGInAgentFramework/UsingRAGInAgentFramework.csproj" Id="11bf0b5c-8a06-4a3f-b70c-148730d2db08" />
+  </Folder>
+  <Folder Name="/SettingsAndConfiguration/">
+    <Project Path="src/SettingsOnAiAgent/SettingsOnAiAgent.csproj" Id="86d8fd4d-bf34-488d-8f30-94e9b808419a" />
+    <Project Path="src/WatchRawRequestAndResponse/WatchRawRequestAndResponse.csproj" Id="bbfd2a79-7962-499a-8428-4fdcee484295" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/Telemetry/">
+    <Project Path="src/Telemetry/Telemetry.csproj" Id="5fd6ed24-957b-4541-9be2-e2e23c6f606a" />
+  </Folder>
+  <Folder Name="/ZeroToFirstAgent/" />
+  <Folder Name="/ZeroToFirstAgent/Non-OpenAI Based/">
+    <Project Path="src/ZeroToFirstAgent.AnthropicClaude/ZeroToFirstAgent.AnthropicClaude.csproj" Id="9c1d090f-f91a-44df-90e4-e4f1e6ae546a" />
+    <Project Path="src/ZeroToFirstAgent.GitHubModels/ZeroToFirstAgent.GitHubModels.csproj" Id="7b3f5942-8fc7-4f7b-94b3-fd21f32ebb44" />
+    <Project Path="src/ZeroToFirstAgent.GoogleGemini/ZeroToFirstAgent.GoogleGemini.csproj" Id="eb32963b-fc60-4285-8d93-df88ed73e247" />
+  </Folder>
+  <Folder Name="/ZeroToFirstAgent/Non-OpenAI Based/Offline/">
+    <Project Path="src/ZeroToFirstAgent.Olaama/ZeroToFirstAgent.Olaama.csproj" Id="fbb6b3d1-1aed-4fec-9632-a99def054b8e" />
+  </Folder>
+  <Folder Name="/ZeroToFirstAgent/OpenAI Based/">
+    <Project Path="src/ZeroToFirstAgent.AzureAiFoundry/ZeroToFirstAgent.AzureAiFoundry.csproj" Id="b0b3dda9-e6f6-4fbd-baf0-c2148dbf91a0" />
+    <Project Path="src/ZeroToFirstAgent.AzureOpenAi/ZeroToFirstAgent.AzureOpenAi.csproj" Id="a1a05c9d-690d-4055-b666-8546e7d876a8" />
+    <Project Path="src/ZeroToFirstAgent.HuggingFace/ZeroToFirstAgent.HuggingFace.csproj" Id="0fb97834-4dc6-4742-92d7-f7a362ccdca0" />
+    <Project Path="src/ZeroToFirstAgent.OpenAi/ZeroToFirstAgent.OpenAi.csproj" Id="c2901cc3-40cc-4ef7-a3a2-b082e855ea6a" />
+    <Project Path="src/ZeroToFirstAgent.OpenRouter/ZeroToFirstAgent.OpenRouter.csproj" Id="71ba75bf-7aef-4168-b31e-c2ccdbfbb8ed" />
+    <Project Path="src/ZeroToFirstAgent.XAIGrok/ZeroToFirstAgent.XAIGrok.csproj" Id="d55d6ced-850d-4fb7-b729-a953ca1b70b0" />
+  </Folder>
+  <Folder Name="/ZeroToFirstAgent/OpenAI Based/Offline/">
+    <Project Path="src/ZeroToFirstAgent.FoundryLocal/ZeroToFirstAgent.FoundryLocal.csproj" Id="420ee7f5-fa0f-4303-a68c-630ede8086e4" />
+  </Folder>
+  <Project Path="src/MicrosoftAgentFramework.Utilities/MicrosoftAgentFramework.Utilities.csproj" Id="997d075c-8a83-4d22-94b3-09af8550aed5" />
+  <Project Path="src/Playground/Playground.csproj" Id="cbfc6bab-e8ea-4566-a695-56d84b6e5f68" />
+  <Project Path="src/Shared/Shared.csproj" />
+</Solution>

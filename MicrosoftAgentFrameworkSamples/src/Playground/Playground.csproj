@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>a126d1a5-5e83-4ff0-97ad-c9e9d631662b</UserSecretsId>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Azure.Identity" Version="1.17.0" />
+		<PackageReference Include="Azure.Monitor.OpenTelemetry.Exporter" Version="1.5.0-beta.1" />
+		<PackageReference Include="Microsoft.Agents.AI" Version="1.0.0-preview.251028.1" />
+		<PackageReference Include="Microsoft.Agents.AI.A2A" Version="1.0.0-preview.251028.1" />
+		<PackageReference Include="Microsoft.Agents.AI.AzureAI" Version="1.0.0-preview.251028.1" />
+		<PackageReference Include="Microsoft.Agents.AI.CopilotStudio" Version="1.0.0-preview.251028.1" />
+		<PackageReference Include="Microsoft.Agents.AI.Hosting" Version="1.0.0-preview.251028.1" />
+		<PackageReference Include="Microsoft.Agents.AI.Hosting.A2A" Version="1.0.0-preview.251028.1" />
+		<PackageReference Include="Microsoft.Agents.AI.Hosting.A2A.AspNetCore" Version="1.0.0-preview.251028.1" />
+		<PackageReference Include="Microsoft.Agents.AI.Workflows" Version="1.0.0-preview.251028.1" />
+		<PackageReference Include="OpenAI" Version="2.5.0" />
+		<PackageReference Include="Azure.AI.OpenAI" Version="2.5.0-beta.1" />
+		<PackageReference Include="Microsoft.Agents.AI.OpenAI" Version="1.0.0-preview.251028.1" />
+		<PackageReference Include="OpenTelemetry" Version="1.14.0-rc.1" />
+		<PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.14.0-rc.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Shared\Shared.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="OpenTelemetry">
+	    <HintPath>C:\Users\rasmu\.nuget\packages\opentelemetry\1.13.1\lib\net9.0\OpenTelemetry.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+	<ItemGroup>
+	  <None Update="Data\secretData.pdf">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+</Project>
